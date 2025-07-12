@@ -47,4 +47,4 @@ A Chrome extension that streamlines your job search by allowing you to quickly o
 
 ## License
 
-This project is open source and available under standard terms.
+MIT License - see LICENSE file for details.
