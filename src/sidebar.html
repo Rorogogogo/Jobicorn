@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="sidebar.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>🦄 Jobicorn</h1>
+      <p class="subtitle">Find your next opportunity</p>
+    </div>
+    
+    <div class="filters">
+      <div class="location-section">
+        <label for="location">Location:</label>
+        <select id="location">
+          <option value="sydney">Sydney</option>
+        </select>
+      </div>
+      
+      <div class="search-section">
+        <label for="jobSearch">Job Search:</label>
+        <input type="text" id="jobSearch" placeholder="e.g. frontend, backend, data" />
+      </div>
+    </div>
+    
+    <div class="companies">
+      <h3>Select Companies:</h3>
+      <div class="company-list">
+        <label class="company-item">
+          <input type="checkbox" id="macquarie" value="macquarie">
+          <span class="checkmark"></span>
+          <div class="company-info">
+            <span class="company-name">Macquarie Group</span>
+            <span class="company-desc">Investment banking & financial services</span>
+          </div>
+        </label>
+        
+        <label class="company-item">
+          <input type="checkbox" id="westpac" value="westpac">
+          <span class="checkmark"></span>
+          <div class="company-info">
+            <span class="company-name">Westpac</span>
+            <span class="company-desc">Major Australian bank</span>
+          </div>
+        </label>
+        
+        <label class="company-item">
+          <input type="checkbox" id="atlassian" value="atlassian">
+          <span class="checkmark"></span>
+          <div class="company-info">
+            <span class="company-name">Atlassian</span>
+            <span class="company-desc">Software development & collaboration</span>
+          </div>
+        </label>
+        
+        <label class="company-item">
+          <input type="checkbox" id="canva" value="canva">
+          <span class="checkmark"></span>
+          <div class="company-info">
+            <span class="company-name">Canva</span>
+            <span class="company-desc">Visual design & collaboration platform</span>
+          </div>
+        </label>
+      </div>
+    </div>
+    
+    <div class="actions">
+      <button id="selectAll" class="btn secondary">Select All</button>
+      <button id="openTabs" class="btn primary">Open Career Pages</button>
+    </div>
+    
+    <div class="footer">
+      <p>🚀 Build your career with unicorn companies</p>
+    </div>
+  </div>
+  
+  <script src="sidebar.js"></script>
+</body>
+</html>
