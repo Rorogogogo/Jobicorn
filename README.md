@@ -47,7 +47,7 @@ A Chrome extension that streamlines your job search by allowing you to quickly o
 
 ## License
 
-MIT License - see LICENSE file for details.
+Dual-licensed: **AGPL-3.0** (see [LICENSE](LICENSE)) and **Commercial** (see [COMMERCIAL.md](COMMERCIAL.md)).
 
 ## License
 
